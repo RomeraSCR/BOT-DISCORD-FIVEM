@@ -1,7 +1,6 @@
-# Awesome Bot Base
-* [This project was generated using Umbra Plus CLI](https://github.com/rinckodev/umbraplus)
+# Bot de FiveM completo para discord
 
-This is the most complete bot base you've ever seen created by [@rinckodev](https://github.com/rinckodev). This project uses typescript to its advantage, using features to create complete structures that facilitate the construction of commands and systems
+Esse projeto foi todo desenvolvido com TypeScript e Discord.js-V4 com SetCargo, Whitelist, Connect e Ticket com Transcript totalmente open-source para a comunidade!   
 
 ! Node version required: 20.10 or higher 
 
@@ -9,11 +8,14 @@ This is the most complete bot base you've ever seen created by [@rinckodev](http
 
 ## Scripts
 
-- `npm run dev`: running bot in development
-- `npm run build`: build the project
-- `npm run start`: running the builded bot
+- `npm i`: Istalar as dependencias ( node_modules )
+- `npm run dev`: Iniciar em dev
+- `npm run start`: Iniciar em prod
+
 
 ## Structures
+
+Base utilizada @RinckoDEV
 
 See how to use:
 - [Commands](docs/how-to-use-commands.md)
