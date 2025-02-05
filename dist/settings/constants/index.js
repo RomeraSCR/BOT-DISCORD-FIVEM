@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const node_path_1 = require("node:path");
+const node_process_1 = require("node:process");
+global.animated = true;
+global.fetchReply = true;
+global.ephemeral = true;
+global.required = true;
+global.inline = true;
+global.disabled = true;
+global.dmPermission = false;
+global.components = [];
+global.embeds = [];
+global.__rootname = (0, node_process_1.cwd)();
+global.rootTo = (...path) => (0, node_path_1.join)(__rootname, ...path);
