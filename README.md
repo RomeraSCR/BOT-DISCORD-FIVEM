@@ -7,7 +7,7 @@ Esse projeto foi todo desenvolvido com TypeScript e Discord.js-V4 com SetCargo, 
 [Setup your application](docs/setup-your-discord-application.md)
 
 ## Scripts
-
+- Edite todas config no: `.env`
 - `npm i`: Istalar as dependencias ( node_modules )
 - `npm run dev`: Iniciar em dev
 - `npm run start`: Iniciar em prod
