@@ -92,19 +92,19 @@ async function sendConnectMessage(channel: TextChannel) {
                 url: process.env.FIVEMURL,
                 label: "Conectar-se",
                 style: ButtonStyle.Link,
-                emoji: "<:icons8meuscinco400:1336830881217773720>"
+                emoji: "<:icons8meuscinco48:1366072726732935300>"
             }),
             new ButtonBuilder({
                 url: process.env.LOJAURL,
                 label: "Acesse a Loja",
                 style: ButtonStyle.Link,
-                emoji: "<:lojas:1336830466770337934>"
+                emoji: "<:icons8loja40:1366072744864911412>"
             }),
             new ButtonBuilder({
                 url: process.env.TIKTOKURL,
                 label: "TikTok",
                 style: ButtonStyle.Link,
-                emoji: "<:tiktok:1336830217469165608>"
+                emoji: "<:icons8tiktok50:1366072758349598782>"
             }),
         ]});
 
